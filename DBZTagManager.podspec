@@ -48,5 +48,6 @@ DBZTagManager framework is the core component of dubizzle iOS app for tagging ac
   s.dependency 'NCNinja'
   s.dependency 'NCNinja/UAE'
   s.dependency 'SnowplowTracker', '0.6.2'
+  s.dependency 'DBZLogger'
   
 end
