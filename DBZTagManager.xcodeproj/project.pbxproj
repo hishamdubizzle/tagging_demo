@@ -54,7 +54,6 @@
 		19ABDFED2021F343007FB3D1 /* ATIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFCD2021F343007FB3D1 /* ATIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19ABDFEE2021F343007FB3D1 /* ATParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFCF2021F343007FB3D1 /* ATParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19ABDFEF2021F343007FB3D1 /* ATTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFD02021F343007FB3D1 /* ATTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19ABDFF12021F3AD007FB3D1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19159B6D2020887700AC20BA /* libsqlite3.tbd */; };
 		19AD9D2920510C5C00990C4A /* TagManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD9D2820510C5C00990C4A /* TagManagerConstants.swift */; };
 		19E2E34620580FA100857C0A /* NinjaCustomAttributes.json in Resources */ = {isa = PBXBuildFile; fileRef = 19E2E34520580FA100857C0A /* NinjaCustomAttributes.json */; };
 		8D98E3C29EB0EBB577DCB216 /* Pods_DBZTagManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75647D257946019E5DA8367E /* Pods_DBZTagManagerTests.framework */; };
@@ -154,7 +153,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19ABDFF12021F3AD007FB3D1 /* libsqlite3.tbd in Frameworks */,
 				C271EF1E601B58C9DEE3214D /* Pods_DBZTagManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
