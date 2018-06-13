@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1955E9EB200DE1CE00E571D9 /* DBZTagManager-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1955E9EC200DE1CE00E571D9 /* Build configuration list for PBXAggregateTarget "DBZTagManager-Universal" */;
+			buildPhases = (
+				1955E9EF200DE1D600E571D9 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "DBZTagManager-Universal";
+			productName = "DBZTagManager-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		194301B5200CC65D00F894A0 /* DBZTagManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 194301AB200CC65D00F894A0 /* DBZTagManager.framework */; };
+		194301BA200CC65D00F894A0 /* DBZTagManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194301B9200CC65D00F894A0 /* DBZTagManagerTests.swift */; };
+		194301BC200CC65D00F894A0 /* DBZTagManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 194301AE200CC65D00F894A0 /* DBZTagManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		194301C6200CC69500F894A0 /* DBZTagManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194301C5200CC69500F894A0 /* DBZTagManagerDelegate.swift */; };
+		194301C8200CC6A300F894A0 /* DBZTagManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 194301C7200CC6A300F894A0 /* DBZTagManagerProtocol.swift */; };
+		19ABDFD22021F343007FB3D1 /* BaseAgentInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFB02021F343007FB3D1 /* BaseAgentInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFD32021F343007FB3D1 /* BaseAgentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFB12021F343007FB3D1 /* BaseAgentInfo.m */; };
+		19ABDFD62021F343007FB3D1 /* BaseCategoryEntity.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFB42021F343007FB3D1 /* BaseCategoryEntity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFD72021F343007FB3D1 /* BaseCategoryEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFB52021F343007FB3D1 /* BaseCategoryEntity.m */; };
+		19ABDFD82021F343007FB3D1 /* BaseCountry.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFB62021F343007FB3D1 /* BaseCountry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFD92021F343007FB3D1 /* BaseCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFB72021F343007FB3D1 /* BaseCountry.m */; };
+		19ABDFDA2021F343007FB3D1 /* BaseNewListing.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFB82021F343007FB3D1 /* BaseNewListing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFDB2021F343007FB3D1 /* BaseNewListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFB92021F343007FB3D1 /* BaseNewListing.m */; };
+		19ABDFDC2021F343007FB3D1 /* BaseNewTagManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFBA2021F343007FB3D1 /* BaseNewTagManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFDD2021F343007FB3D1 /* BaseNewTagManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFBB2021F343007FB3D1 /* BaseNewTagManager.m */; };
+		19ABDFDE2021F343007FB3D1 /* BaseNewTagObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFBC2021F343007FB3D1 /* BaseNewTagObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFDF2021F343007FB3D1 /* BaseNewTagObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFBD2021F343007FB3D1 /* BaseNewTagObject.m */; };
+		19ABDFE02021F343007FB3D1 /* BaseSnowPlow.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFBE2021F343007FB3D1 /* BaseSnowPlow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFE12021F343007FB3D1 /* BaseSnowPlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFBF2021F343007FB3D1 /* BaseSnowPlow.m */; };
+		19ABDFE22021F343007FB3D1 /* TuneTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFC02021F343007FB3D1 /* TuneTracker.swift */; };
+		19ABDFE32021F343007FB3D1 /* NSArray+Check.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFC22021F343007FB3D1 /* NSArray+Check.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFE42021F343007FB3D1 /* NSArray+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFC32021F343007FB3D1 /* NSArray+Check.m */; };
+		19ABDFE52021F343007FB3D1 /* NSArrayFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFC42021F343007FB3D1 /* NSArrayFilterExtension.swift */; };
+		19ABDFE62021F343007FB3D1 /* NSDictionary+Check.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFC52021F343007FB3D1 /* NSDictionary+Check.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFE72021F343007FB3D1 /* NSDictionary+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFC62021F343007FB3D1 /* NSDictionary+Check.m */; };
+		19ABDFE82021F343007FB3D1 /* NSMutableArray+Check.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFC72021F343007FB3D1 /* NSMutableArray+Check.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFE92021F343007FB3D1 /* NSMutableArray+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFC82021F343007FB3D1 /* NSMutableArray+Check.m */; };
+		19ABDFEA2021F343007FB3D1 /* NSString+Base64Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFC92021F343007FB3D1 /* NSString+Base64Info.swift */; };
+		19ABDFEB2021F343007FB3D1 /* NSString+Data.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFCA2021F343007FB3D1 /* NSString+Data.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFEC2021F343007FB3D1 /* NSString+Data.m in Sources */ = {isa = PBXBuildFile; fileRef = 19ABDFCB2021F343007FB3D1 /* NSString+Data.m */; };
+		19ABDFED2021F343007FB3D1 /* ATIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFCD2021F343007FB3D1 /* ATIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFEE2021F343007FB3D1 /* ATParams.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFCF2021F343007FB3D1 /* ATParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFEF2021F343007FB3D1 /* ATTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 19ABDFD02021F343007FB3D1 /* ATTag.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19ABDFF12021F3AD007FB3D1 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 19159B6D2020887700AC20BA /* libsqlite3.tbd */; };
+		19AD9D2920510C5C00990C4A /* TagManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AD9D2820510C5C00990C4A /* TagManagerConstants.swift */; };
+		19E2E34620580FA100857C0A /* NinjaCustomAttributes.json in Resources */ = {isa = PBXBuildFile; fileRef = 19E2E34520580FA100857C0A /* NinjaCustomAttributes.json */; };
+		8D98E3C29EB0EBB577DCB216 /* Pods_DBZTagManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75647D257946019E5DA8367E /* Pods_DBZTagManagerTests.framework */; };
+		BE1A1F192055093700F3D034 /* EventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A1F182055093700F3D034 /* EventTests.swift */; };
+		BE1A1F232055325600F3D034 /* NinjaExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A1F222055325500F3D034 /* NinjaExtensionTests.swift */; };
+		BE425DFC204FF5950034D382 /* TagManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DEF204FF5950034D382 /* TagManagerProtocol.swift */; };
+		BE425DFD204FF5950034D382 /* TagManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DF0204FF5950034D382 /* TagManager.swift */; };
+		BE425DFE204FF5950034D382 /* NinjaDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DF3204FF5950034D382 /* NinjaDAO.swift */; };
+		BE425DFF204FF5950034D382 /* NinjaExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DF4204FF5950034D382 /* NinjaExtension.swift */; };
+		BE425E00204FF5950034D382 /* BaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DF5204FF5950034D382 /* BaseExtension.swift */; };
+		BE425E01204FF5950034D382 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DF7204FF5950034D382 /* Event.swift */; };
+		BE425E02204FF5950034D382 /* TagManagerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE425DF8204FF5950034D382 /* TagManagerFactory.swift */; };
+		BE425E072050076A0034D382 /* ninja_events.json in Resources */ = {isa = PBXBuildFile; fileRef = BE425E062050076A0034D382 /* ninja_events.json */; };
+		BE5A50262051666900ABB49E /* TagManagerFactoryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A50242051666800ABB49E /* TagManagerFactoryDelegate.swift */; };
+		BE5A50272051666900ABB49E /* TagManagerFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A50252051666800ABB49E /* TagManagerFactoryProtocol.swift */; };
+		BE6322DA20B3F3810052B9B2 /* TaggingValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6322D920B3F3810052B9B2 /* TaggingValidationTests.swift */; };
+		BE963B722057F0640082721B /* TagManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE963B712057F0640082721B /* TagManagerTests.swift */; };
+		BEE69DAA20A816F2008E3157 /* events_validation.json in Resources */ = {isa = PBXBuildFile; fileRef = BEE69DA920A816F2008E3157 /* events_validation.json */; };
+		C271EF1E601B58C9DEE3214D /* Pods_DBZTagManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3219F2872355D1EA697F5BF4 /* Pods_DBZTagManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		194301B6200CC65D00F894A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 194301A2200CC65D00F894A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 194301AA200CC65D00F894A0;
+			remoteInfo = DBZTagManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19159B6D2020887700AC20BA /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		194301AB200CC65D00F894A0 /* DBZTagManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DBZTagManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		194301AE200CC65D00F894A0 /* DBZTagManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBZTagManager.h; sourceTree = "<group>"; };
+		194301AF200CC65D00F894A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194301B4200CC65D00F894A0 /* DBZTagManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBZTagManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		194301B9200CC65D00F894A0 /* DBZTagManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBZTagManagerTests.swift; sourceTree = "<group>"; };
+		194301BB200CC65D00F894A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		194301C5200CC69500F894A0 /* DBZTagManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBZTagManagerDelegate.swift; sourceTree = "<group>"; };
+		194301C7200CC6A300F894A0 /* DBZTagManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBZTagManagerProtocol.swift; sourceTree = "<group>"; };
+		19ABDFB02021F343007FB3D1 /* BaseAgentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAgentInfo.h; sourceTree = "<group>"; };
+		19ABDFB12021F343007FB3D1 /* BaseAgentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAgentInfo.m; sourceTree = "<group>"; };
+		19ABDFB42021F343007FB3D1 /* BaseCategoryEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCategoryEntity.h; sourceTree = "<group>"; };
+		19ABDFB52021F343007FB3D1 /* BaseCategoryEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCategoryEntity.m; sourceTree = "<group>"; };
+		19ABDFB62021F343007FB3D1 /* BaseCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCountry.h; sourceTree = "<group>"; };
+		19ABDFB72021F343007FB3D1 /* BaseCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCountry.m; sourceTree = "<group>"; };
+		19ABDFB82021F343007FB3D1 /* BaseNewListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNewListing.h; sourceTree = "<group>"; };
+		19ABDFB92021F343007FB3D1 /* BaseNewListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNewListing.m; sourceTree = "<group>"; };
+		19ABDFBA2021F343007FB3D1 /* BaseNewTagManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNewTagManager.h; sourceTree = "<group>"; };
+		19ABDFBB2021F343007FB3D1 /* BaseNewTagManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNewTagManager.m; sourceTree = "<group>"; };
+		19ABDFBC2021F343007FB3D1 /* BaseNewTagObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNewTagObject.h; sourceTree = "<group>"; };
+		19ABDFBD2021F343007FB3D1 /* BaseNewTagObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNewTagObject.m; sourceTree = "<group>"; };
+		19ABDFBE2021F343007FB3D1 /* BaseSnowPlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseSnowPlow.h; sourceTree = "<group>"; };
+		19ABDFBF2021F343007FB3D1 /* BaseSnowPlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseSnowPlow.m; sourceTree = "<group>"; };
+		19ABDFC02021F343007FB3D1 /* TuneTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TuneTracker.swift; sourceTree = "<group>"; };
+		19ABDFC22021F343007FB3D1 /* NSArray+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Check.h"; sourceTree = "<group>"; };
+		19ABDFC32021F343007FB3D1 /* NSArray+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Check.m"; sourceTree = "<group>"; };
+		19ABDFC42021F343007FB3D1 /* NSArrayFilterExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSArrayFilterExtension.swift; sourceTree = "<group>"; };
+		19ABDFC52021F343007FB3D1 /* NSDictionary+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Check.h"; sourceTree = "<group>"; };
+		19ABDFC62021F343007FB3D1 /* NSDictionary+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Check.m"; sourceTree = "<group>"; };
+		19ABDFC72021F343007FB3D1 /* NSMutableArray+Check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Check.h"; sourceTree = "<group>"; };
+		19ABDFC82021F343007FB3D1 /* NSMutableArray+Check.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Check.m"; sourceTree = "<group>"; };
+		19ABDFC92021F343007FB3D1 /* NSString+Base64Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSString+Base64Info.swift"; sourceTree = "<group>"; };
+		19ABDFCA2021F343007FB3D1 /* NSString+Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Data.h"; sourceTree = "<group>"; };
+		19ABDFCB2021F343007FB3D1 /* NSString+Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Data.m"; sourceTree = "<group>"; };
+		19ABDFCD2021F343007FB3D1 /* ATIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATIConstants.h; sourceTree = "<group>"; };
+		19ABDFCF2021F343007FB3D1 /* ATParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATParams.h; sourceTree = "<group>"; };
+		19ABDFD02021F343007FB3D1 /* ATTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATTag.h; sourceTree = "<group>"; };
+		19AD9D2820510C5C00990C4A /* TagManagerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagerConstants.swift; sourceTree = "<group>"; };
+		19E2E34520580FA100857C0A /* NinjaCustomAttributes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NinjaCustomAttributes.json; sourceTree = "<group>"; };
+		3219F2872355D1EA697F5BF4 /* Pods_DBZTagManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBZTagManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43355E87F67FE61A46D8E4A4 /* Pods-DBZTagManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBZTagManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBZTagManager/Pods-DBZTagManager.release.xcconfig"; sourceTree = "<group>"; };
+		6A51BE6A544BD68203FB418C /* Pods-DBZTagManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBZTagManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DBZTagManagerTests/Pods-DBZTagManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		75647D257946019E5DA8367E /* Pods_DBZTagManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBZTagManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1A1F182055093700F3D034 /* EventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTests.swift; sourceTree = "<group>"; };
+		BE1A1F222055325500F3D034 /* NinjaExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinjaExtensionTests.swift; sourceTree = "<group>"; };
+		BE425DEF204FF5950034D382 /* TagManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagManagerProtocol.swift; sourceTree = "<group>"; };
+		BE425DF0204FF5950034D382 /* TagManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagManager.swift; sourceTree = "<group>"; };
+		BE425DF3204FF5950034D382 /* NinjaDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaDAO.swift; sourceTree = "<group>"; };
+		BE425DF4204FF5950034D382 /* NinjaExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NinjaExtension.swift; sourceTree = "<group>"; };
+		BE425DF5204FF5950034D382 /* BaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseExtension.swift; sourceTree = "<group>"; };
+		BE425DF7204FF5950034D382 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		BE425DF8204FF5950034D382 /* TagManagerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagManagerFactory.swift; sourceTree = "<group>"; };
+		BE425E062050076A0034D382 /* ninja_events.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ninja_events.json; sourceTree = "<group>"; };
+		BE5A50242051666800ABB49E /* TagManagerFactoryDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagManagerFactoryDelegate.swift; sourceTree = "<group>"; };
+		BE5A50252051666800ABB49E /* TagManagerFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagManagerFactoryProtocol.swift; sourceTree = "<group>"; };
+		BE6322D920B3F3810052B9B2 /* TaggingValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaggingValidationTests.swift; sourceTree = "<group>"; };
+		BE963B712057F0640082721B /* TagManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagManagerTests.swift; sourceTree = "<group>"; };
+		BEE69DA920A816F2008E3157 /* events_validation.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = events_validation.json; sourceTree = "<group>"; };
+		D13757B8393D28905EA77B31 /* Pods-DBZTagManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBZTagManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBZTagManager/Pods-DBZTagManager.debug.xcconfig"; sourceTree = "<group>"; };
+		F245F7892D239B7A5C81E830 /* Pods-DBZTagManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBZTagManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DBZTagManagerTests/Pods-DBZTagManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		194301A7200CC65D00F894A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19ABDFF12021F3AD007FB3D1 /* libsqlite3.tbd in Frameworks */,
+				C271EF1E601B58C9DEE3214D /* Pods_DBZTagManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194301B1200CC65D00F894A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				194301B5200CC65D00F894A0 /* DBZTagManager.framework in Frameworks */,
+				8D98E3C29EB0EBB577DCB216 /* Pods_DBZTagManagerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		194301A1200CC65D00F894A0 = {
+			isa = PBXGroup;
+			children = (
+				BE425DE9204FF5950034D382 /* DBZAnalytics */,
+				194301AD200CC65D00F894A0 /* DBZTagManager */,
+				194301B8200CC65D00F894A0 /* DBZTagManagerTests */,
+				194301AC200CC65D00F894A0 /* Products */,
+				5123BE561E9B95CA2AD5B03A /* Pods */,
+				C0EBC05CDB5150E4D3BA70FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		194301AC200CC65D00F894A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				194301AB200CC65D00F894A0 /* DBZTagManager.framework */,
+				194301B4200CC65D00F894A0 /* DBZTagManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		194301AD200CC65D00F894A0 /* DBZTagManager */ = {
+			isa = PBXGroup;
+			children = (
+				194301AE200CC65D00F894A0 /* DBZTagManager.h */,
+				194301AF200CC65D00F894A0 /* Info.plist */,
+				194301C5200CC69500F894A0 /* DBZTagManagerDelegate.swift */,
+				194301C7200CC6A300F894A0 /* DBZTagManagerProtocol.swift */,
+				19ABDFCE2021F343007FB3D1 /* ATIAnalytics */,
+				19ABDFCC2021F343007FB3D1 /* Constants */,
+				19ABDFC12021F343007FB3D1 /* Extensions */,
+				19ABDFAF2021F343007FB3D1 /* Tag Manager */,
+			);
+			path = DBZTagManager;
+			sourceTree = "<group>";
+		};
+		194301B8200CC65D00F894A0 /* DBZTagManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				194301B9200CC65D00F894A0 /* DBZTagManagerTests.swift */,
+				BE1A1F182055093700F3D034 /* EventTests.swift */,
+				BE1A1F222055325500F3D034 /* NinjaExtensionTests.swift */,
+				BE6322D920B3F3810052B9B2 /* TaggingValidationTests.swift */,
+				BE963B712057F0640082721B /* TagManagerTests.swift */,
+				194301BB200CC65D00F894A0 /* Info.plist */,
+			);
+			path = DBZTagManagerTests;
+			sourceTree = "<group>";
+		};
+		19ABDFAF2021F343007FB3D1 /* Tag Manager */ = {
+			isa = PBXGroup;
+			children = (
+				19ABDFB02021F343007FB3D1 /* BaseAgentInfo.h */,
+				19ABDFB12021F343007FB3D1 /* BaseAgentInfo.m */,
+				19ABDFB42021F343007FB3D1 /* BaseCategoryEntity.h */,
+				19ABDFB52021F343007FB3D1 /* BaseCategoryEntity.m */,
+				19ABDFB62021F343007FB3D1 /* BaseCountry.h */,
+				19ABDFB72021F343007FB3D1 /* BaseCountry.m */,
+				19ABDFB82021F343007FB3D1 /* BaseNewListing.h */,
+				19ABDFB92021F343007FB3D1 /* BaseNewListing.m */,
+				19ABDFBA2021F343007FB3D1 /* BaseNewTagManager.h */,
+				19ABDFBB2021F343007FB3D1 /* BaseNewTagManager.m */,
+				19ABDFBC2021F343007FB3D1 /* BaseNewTagObject.h */,
+				19ABDFBD2021F343007FB3D1 /* BaseNewTagObject.m */,
+				19ABDFBE2021F343007FB3D1 /* BaseSnowPlow.h */,
+				19ABDFBF2021F343007FB3D1 /* BaseSnowPlow.m */,
+				19ABDFC02021F343007FB3D1 /* TuneTracker.swift */,
+			);
+			path = "Tag Manager";
+			sourceTree = "<group>";
+		};
+		19ABDFC12021F343007FB3D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				19ABDFC22021F343007FB3D1 /* NSArray+Check.h */,
+				19ABDFC32021F343007FB3D1 /* NSArray+Check.m */,
+				19ABDFC42021F343007FB3D1 /* NSArrayFilterExtension.swift */,
+				19ABDFC52021F343007FB3D1 /* NSDictionary+Check.h */,
+				19ABDFC62021F343007FB3D1 /* NSDictionary+Check.m */,
+				19ABDFC72021F343007FB3D1 /* NSMutableArray+Check.h */,
+				19ABDFC82021F343007FB3D1 /* NSMutableArray+Check.m */,
+				19ABDFC92021F343007FB3D1 /* NSString+Base64Info.swift */,
+				19ABDFCA2021F343007FB3D1 /* NSString+Data.h */,
+				19ABDFCB2021F343007FB3D1 /* NSString+Data.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		19ABDFCC2021F343007FB3D1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				19ABDFCD2021F343007FB3D1 /* ATIConstants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		19ABDFCE2021F343007FB3D1 /* ATIAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				19ABDFCF2021F343007FB3D1 /* ATParams.h */,
+				19ABDFD02021F343007FB3D1 /* ATTag.h */,
+			);
+			path = ATIAnalytics;
+			sourceTree = "<group>";
+		};
+		5123BE561E9B95CA2AD5B03A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D13757B8393D28905EA77B31 /* Pods-DBZTagManager.debug.xcconfig */,
+				43355E87F67FE61A46D8E4A4 /* Pods-DBZTagManager.release.xcconfig */,
+				F245F7892D239B7A5C81E830 /* Pods-DBZTagManagerTests.debug.xcconfig */,
+				6A51BE6A544BD68203FB418C /* Pods-DBZTagManagerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE425DE9204FF5950034D382 /* DBZAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				BE425E03205006D90034D382 /* JsonFile */,
+				BE425DEE204FF5950034D382 /* TagManager */,
+				BE425DF1204FF5950034D382 /* Extensions */,
+				BE425DF6204FF5950034D382 /* Event */,
+				BE425DF8204FF5950034D382 /* TagManagerFactory.swift */,
+				BE5A50242051666800ABB49E /* TagManagerFactoryDelegate.swift */,
+				BE5A50252051666800ABB49E /* TagManagerFactoryProtocol.swift */,
+				19AD9D2820510C5C00990C4A /* TagManagerConstants.swift */,
+			);
+			path = DBZAnalytics;
+			sourceTree = "<group>";
+		};
+		BE425DEE204FF5950034D382 /* TagManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE425DEF204FF5950034D382 /* TagManagerProtocol.swift */,
+				BE425DF0204FF5950034D382 /* TagManager.swift */,
+			);
+			path = TagManager;
+			sourceTree = "<group>";
+		};
+		BE425DF1204FF5950034D382 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE425DF2204FF5950034D382 /* Ninja */,
+				BE425DF5204FF5950034D382 /* BaseExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE425DF2204FF5950034D382 /* Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				BE425DF3204FF5950034D382 /* NinjaDAO.swift */,
+				BE425DF4204FF5950034D382 /* NinjaExtension.swift */,
+			);
+			path = Ninja;
+			sourceTree = "<group>";
+		};
+		BE425DF6204FF5950034D382 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				BE425DF7204FF5950034D382 /* Event.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		BE425E03205006D90034D382 /* JsonFile */ = {
+			isa = PBXGroup;
+			children = (
+				19E2E34520580FA100857C0A /* NinjaCustomAttributes.json */,
+				BE425E062050076A0034D382 /* ninja_events.json */,
+				BEE69DA920A816F2008E3157 /* events_validation.json */,
+			);
+			path = JsonFile;
+			sourceTree = "<group>";
+		};
+		C0EBC05CDB5150E4D3BA70FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19159B6D2020887700AC20BA /* libsqlite3.tbd */,
+				3219F2872355D1EA697F5BF4 /* Pods_DBZTagManager.framework */,
+				75647D257946019E5DA8367E /* Pods_DBZTagManagerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		194301A8200CC65D00F894A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19ABDFDE2021F343007FB3D1 /* BaseNewTagObject.h in Headers */,
+				19ABDFD62021F343007FB3D1 /* BaseCategoryEntity.h in Headers */,
+				19ABDFEE2021F343007FB3D1 /* ATParams.h in Headers */,
+				19ABDFE62021F343007FB3D1 /* NSDictionary+Check.h in Headers */,
+				19ABDFE02021F343007FB3D1 /* BaseSnowPlow.h in Headers */,
+				19ABDFDC2021F343007FB3D1 /* BaseNewTagManager.h in Headers */,
+				19ABDFD22021F343007FB3D1 /* BaseAgentInfo.h in Headers */,
+				19ABDFE32021F343007FB3D1 /* NSArray+Check.h in Headers */,
+				19ABDFED2021F343007FB3D1 /* ATIConstants.h in Headers */,
+				19ABDFEB2021F343007FB3D1 /* NSString+Data.h in Headers */,
+				19ABDFD82021F343007FB3D1 /* BaseCountry.h in Headers */,
+				19ABDFDA2021F343007FB3D1 /* BaseNewListing.h in Headers */,
+				19ABDFEF2021F343007FB3D1 /* ATTag.h in Headers */,
+				19ABDFE82021F343007FB3D1 /* NSMutableArray+Check.h in Headers */,
+				194301BC200CC65D00F894A0 /* DBZTagManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		194301AA200CC65D00F894A0 /* DBZTagManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194301BF200CC65D00F894A0 /* Build configuration list for PBXNativeTarget "DBZTagManager" */;
+			buildPhases = (
+				3542D9AA1D1624DA300FD06C /* [CP] Check Pods Manifest.lock */,
+				194301A6200CC65D00F894A0 /* Sources */,
+				194301A7200CC65D00F894A0 /* Frameworks */,
+				194301A8200CC65D00F894A0 /* Headers */,
+				194301A9200CC65D00F894A0 /* Resources */,
+				19F2526820A069D400736AA9 /* swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DBZTagManager;
+			productName = DBZTagManager;
+			productReference = 194301AB200CC65D00F894A0 /* DBZTagManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		194301B3200CC65D00F894A0 /* DBZTagManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 194301C2200CC65D00F894A0 /* Build configuration list for PBXNativeTarget "DBZTagManagerTests" */;
+			buildPhases = (
+				C70D68CE07943B5917B41F6A /* [CP] Check Pods Manifest.lock */,
+				194301B0200CC65D00F894A0 /* Sources */,
+				194301B1200CC65D00F894A0 /* Frameworks */,
+				194301B2200CC65D00F894A0 /* Resources */,
+				2CA6DACFB7D58C14870F8E5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				194301B7200CC65D00F894A0 /* PBXTargetDependency */,
+			);
+			name = DBZTagManagerTests;
+			productName = DBZTagManagerTests;
+			productReference = 194301B4200CC65D00F894A0 /* DBZTagManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		194301A2200CC65D00F894A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Dubizzle;
+				TargetAttributes = {
+					194301AA200CC65D00F894A0 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					194301B3200CC65D00F894A0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1955E9EB200DE1CE00E571D9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 194301A5200CC65D00F894A0 /* Build configuration list for PBXProject "DBZTagManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 194301A1200CC65D00F894A0;
+			productRefGroup = 194301AC200CC65D00F894A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				194301AA200CC65D00F894A0 /* DBZTagManager */,
+				194301B3200CC65D00F894A0 /* DBZTagManagerTests */,
+				1955E9EB200DE1CE00E571D9 /* DBZTagManager-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		194301A9200CC65D00F894A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19E2E34620580FA100857C0A /* NinjaCustomAttributes.json in Resources */,
+				BEE69DAA20A816F2008E3157 /* events_validation.json in Resources */,
+				BE425E072050076A0034D382 /* ninja_events.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194301B2200CC65D00F894A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1955E9EF200DE1D600E571D9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -workspace \"${PROJECT_NAME}\".xcworkspace -scheme \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -workspace \"${PROJECT_NAME}\".xcworkspace -scheme \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\n# Step 5. Convenience step to copy the framework to the project's directory\ncp -R \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework\" \"${PROJECT_DIR}\"\n\n# Step 6. Convenience step to open the project's directory in Finder\nopen \"${PROJECT_DIR}\"";
+		};
+		19F2526820A069D400736AA9 /* swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = swiftlint;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		2CA6DACFB7D58C14870F8E5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DBZTagManagerTests/Pods-DBZTagManagerTests-frameworks.sh",
+				"${PODS_ROOT}/Apptimize/apptimize-ios-2.20.20/Apptimize.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DBZLogger/DBZLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/NCNinja/NCNinja.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SnowplowTracker/SnowplowTracker.framework",
+				"${BUILT_PRODUCTS_DIR}/UICKeyChainStore/UICKeyChainStore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Apptimize.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBZLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCNinja.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnowplowTracker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICKeyChainStore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DBZTagManagerTests/Pods-DBZTagManagerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3542D9AA1D1624DA300FD06C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DBZTagManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70D68CE07943B5917B41F6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DBZTagManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194301A6200CC65D00F894A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19ABDFE92021F343007FB3D1 /* NSMutableArray+Check.m in Sources */,
+				19ABDFD32021F343007FB3D1 /* BaseAgentInfo.m in Sources */,
+				19ABDFD92021F343007FB3D1 /* BaseCountry.m in Sources */,
+				19ABDFE52021F343007FB3D1 /* NSArrayFilterExtension.swift in Sources */,
+				19ABDFE22021F343007FB3D1 /* TuneTracker.swift in Sources */,
+				19ABDFEC2021F343007FB3D1 /* NSString+Data.m in Sources */,
+				BE5A50272051666900ABB49E /* TagManagerFactoryProtocol.swift in Sources */,
+				19AD9D2920510C5C00990C4A /* TagManagerConstants.swift in Sources */,
+				19ABDFE42021F343007FB3D1 /* NSArray+Check.m in Sources */,
+				19ABDFDF2021F343007FB3D1 /* BaseNewTagObject.m in Sources */,
+				BE425E00204FF5950034D382 /* BaseExtension.swift in Sources */,
+				BE425E01204FF5950034D382 /* Event.swift in Sources */,
+				19ABDFDD2021F343007FB3D1 /* BaseNewTagManager.m in Sources */,
+				BE425DFF204FF5950034D382 /* NinjaExtension.swift in Sources */,
+				19ABDFEA2021F343007FB3D1 /* NSString+Base64Info.swift in Sources */,
+				194301C6200CC69500F894A0 /* DBZTagManagerDelegate.swift in Sources */,
+				19ABDFD72021F343007FB3D1 /* BaseCategoryEntity.m in Sources */,
+				19ABDFE72021F343007FB3D1 /* NSDictionary+Check.m in Sources */,
+				BE425DFC204FF5950034D382 /* TagManagerProtocol.swift in Sources */,
+				BE425E02204FF5950034D382 /* TagManagerFactory.swift in Sources */,
+				BE425DFE204FF5950034D382 /* NinjaDAO.swift in Sources */,
+				19ABDFE12021F343007FB3D1 /* BaseSnowPlow.m in Sources */,
+				BE5A50262051666900ABB49E /* TagManagerFactoryDelegate.swift in Sources */,
+				19ABDFDB2021F343007FB3D1 /* BaseNewListing.m in Sources */,
+				BE425DFD204FF5950034D382 /* TagManager.swift in Sources */,
+				194301C8200CC6A300F894A0 /* DBZTagManagerProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		194301B0200CC65D00F894A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1A1F232055325600F3D034 /* NinjaExtensionTests.swift in Sources */,
+				BE1A1F192055093700F3D034 /* EventTests.swift in Sources */,
+				BE963B722057F0640082721B /* TagManagerTests.swift in Sources */,
+				BE6322DA20B3F3810052B9B2 /* TaggingValidationTests.swift in Sources */,
+				194301BA200CC65D00F894A0 /* DBZTagManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		194301B7200CC65D00F894A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 194301AA200CC65D00F894A0 /* DBZTagManager */;
+			targetProxy = 194301B6200CC65D00F894A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		194301BD200CC65D00F894A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		194301BE200CC65D00F894A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		194301C0200CC65D00F894A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D13757B8393D28905EA77B31 /* Pods-DBZTagManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZBPP83795K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DBZTagManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DBZTagManager/ATIAnalytics",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubizzle.DBZTagManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		194301C1200CC65D00F894A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43355E87F67FE61A46D8E4A4 /* Pods-DBZTagManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZBPP83795K;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DBZTagManager/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DBZTagManager/ATIAnalytics",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubizzle.DBZTagManager;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		194301C3200CC65D00F894A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F245F7892D239B7A5C81E830 /* Pods-DBZTagManagerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBPP83795K;
+				INFOPLIST_FILE = DBZTagManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubizzle.DBZTagManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		194301C4200CC65D00F894A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A51BE6A544BD68203FB418C /* Pods-DBZTagManagerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBPP83795K;
+				INFOPLIST_FILE = DBZTagManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dubizzle.DBZTagManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1955E9ED200DE1CE00E571D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBPP83795K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1955E9EE200DE1CE00E571D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBPP83795K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		194301A5200CC65D00F894A0 /* Build configuration list for PBXProject "DBZTagManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194301BD200CC65D00F894A0 /* Debug */,
+				194301BE200CC65D00F894A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194301BF200CC65D00F894A0 /* Build configuration list for PBXNativeTarget "DBZTagManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194301C0200CC65D00F894A0 /* Debug */,
+				194301C1200CC65D00F894A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		194301C2200CC65D00F894A0 /* Build configuration list for PBXNativeTarget "DBZTagManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				194301C3200CC65D00F894A0 /* Debug */,
+				194301C4200CC65D00F894A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1955E9EC200DE1CE00E571D9 /* Build configuration list for PBXAggregateTarget "DBZTagManager-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1955E9ED200DE1CE00E571D9 /* Debug */,
+				1955E9EE200DE1CE00E571D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 194301A2200CC65D00F894A0 /* Project object */;
+}

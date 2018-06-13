@@ -1,0 +1,991 @@
+{
+  "algoliaResultsView": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "searchString", "resultSetType", "ads", "adsOnPage", "pageNumber"],
+    "mandatory": []
+  },
+  "addToFavorites": {
+    "optional": ["adId", "categoryId", "cityId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "addressClicked": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "alertLogin": {
+    "optional": [],
+    "mandatory": []
+  },
+  "back": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "backButton": {
+    "optional": ["resultSetType", "userId"],
+    "mandatory": []
+  },
+  "browse": {
+    "optional": [],
+    "mandatory": []
+  },
+  "browseLpv": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "imagesCount", "resultSetType"],
+    "mandatory": []
+  },
+  "callSent": {
+    "optional": ["adId", "categoryId", "cityId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "imagesCount", "matcher_id", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "callButton": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "cancel": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "categoryBrowser": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chatBlocked": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chatBuyerMessaged": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chatInitiated": {
+    "optional": ["adId", "lister_id", "funnel_subsection", "funnel_page", "funnel_subsubsection"],
+    "mandatory": []
+  },
+  "chatInitiatedLoggedIn": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "matcher_id", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chatLocationSent": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chatMessageSent": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chatroom": {
+    "optional": [],
+    "mandatory": []
+  },
+  "chatSellerReplied": {
+    "optional": [],
+    "mandatory": []
+  },
+  "chatUnblocked": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "chooseLocationAutomatic": {
+    "optional": [],
+    "mandatory": []
+  },
+  "citySelector": {
+    "optional": ["resultSetType", "userId"],
+    "mandatory": []
+  },
+  "classicResultsView": {
+    "optional": [],
+    "mandatory": []
+  },
+  "clickRecentSearchItem": {
+    "optional": ["cityId", "userId"],
+    "mandatory": []
+  },
+  "deleteAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "deleteAdCancel": {
+    "optional": [],
+    "mandatory": []
+  },
+  "deleteAdConfirm": {
+    "optional": [],
+    "mandatory": []
+  },
+  "deleteAdsClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "deleteAdsOpenMode": {
+    "optional": [],
+    "mandatory": []
+  },
+  "deleteSavedSearchButton": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "deleteFromFavourites": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "dislikeApp": {
+    "optional": ["resultSetType"],
+    "mandatory": []
+  },
+  "dpv": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "dpvChatButtonClicked": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "dpvDescriptionViewer": {
+    "optional": [],
+    "mandatory": []
+  },
+  "dpvPhotoViewer": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId"],
+    "mandatory": []
+  },
+  "editAdAction": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "editAdPage": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "editAdsClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "emailEntered": {
+    "optional": ["cityId", "resultSetType"],
+    "mandatory": []
+  },
+  "emailEnteredRegistration": {
+    "optional": ["cityId", "resultSetType"],
+    "mandatory": []
+  },
+  "emailLogin": {
+    "optional": ["cityId", "resultSetType", "funnel_page", "funnel_subsection"],
+    "mandatory": []
+  },
+  "emailLoginSuccess": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "emailScreen": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "emailSent": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "imagesCount", "resultSetType", "matcher_id", "userId"],
+    "mandatory": []
+  },
+  "emailButton": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "facebookGraphRequestFailed": {
+    "optional": [],
+    "mandatory": []
+  },
+  "facebookLoginButtonClicked": {
+    "optional": ["cityId", "resultSetType"],
+    "mandatory": []
+  },
+  "facebookLoginConflict": {
+    "optional": [],
+    "mandatory": []
+  },
+  "facebookLoginError": {
+    "optional": [],
+    "mandatory": []
+  },
+  "facebookLoginSuccess": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "facebookLoginSuccessNewUserRegistered": {
+    "optional": [],
+    "mandatory": []
+  },
+  "favoriteButton": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId"],
+    "mandatory": []
+  },
+  "favourites": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "featureAdsOpenMode": {
+    "optional": [],
+    "mandatory": []
+  },
+  "featureAdsClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "floatingPaaPressed": {
+    "optional": [],
+    "mandatory": []
+  },
+  "filtersBackButton": {
+    "optional": [],
+    "mandatory": []
+  },
+  "filtersSearchButton": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId"],
+    "mandatory": []
+  },
+  "forgotPasswordEmailSent": {
+    "optional": ["cityId", "resultSetType", "funnel_subsection"],
+    "mandatory": []
+  },
+  "forward": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "gaveNoRating": {
+    "optional": ["resultSetType"],
+    "mandatory": []
+  },
+  "gaveRating": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "go": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeIcon": {
+    "optional": [],
+    "mandatory": []
+  },
+  "homeIconMotors": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeIconProperty": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeIconClassified": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeIconJobs": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeIconCommunity": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeRecentSearch": {
+    "optional": [],
+    "mandatory": []
+  },
+  "homeScreen": {
+    "optional": ["cityId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "homeScreenSearchBarCloseIconClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "homeTopSearch": {
+    "optional": ["cityId", "userId"],
+    "mandatory": []
+  },
+  "imageGalleryClicked": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "imagesCount", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "imageResultsView": {
+    "optional": ["categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId", "resultSetType", "userId"],
+    "mandatory": []
+  },
+  "jobsApplyAttachCv": {
+    "optional": [],
+    "mandatory": []
+  },
+  "jobsApplyAttachCvFailed": {
+    "optional": [],
+    "mandatory": []
+  },
+  "jobsApplyDpvClick": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "jobsApplyFailedValidationExperienceLevel": {
+    "optional": [],
+    "mandatory": []
+  },
+  "jobsApplySentCongrats": {
+    "optional": ["lister_id", "adId", "funnel_page", "funnel_subsection", "funnel_subsubsection", "neighbourhood", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "jwViewAdDetails": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "jwCvSearchApplicantDpv": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "jwEmailSales": {
+    "optional": [],
+    "mandatory": []
+  },
+  "homeCategory": {
+    "optional": [],
+    "mandatory": []
+  },
+  "likeApp": {
+    "optional": [],
+    "mandatory": []
+  },
+  "listingLoaded": {
+    "optional": [],
+    "mandatory": []
+  },
+  "locateMeButton": {
+    "optional": [],
+    "mandatory": []
+  },
+  "locationPermissionNo": {
+    "optional": [],
+    "mandatory": []
+  },
+  "locationPermissionYes": {
+    "optional": [],
+    "mandatory": []
+  },
+  "login": {
+    "optional": ["funnel_subsection"],
+    "mandatory": []
+  },
+  "loginSubmission": {
+    "optional": [],
+    "mandatory": []
+  },
+  "logoutAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "lpvErrorPage": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "lpvAddToFavourites": {
+    "optional": ["adId", "lister_id", "photoscount", "listing_position", "funnel_section", "funnel_subsection"],
+    "mandatory": []
+  },
+  "lpvRemoveFromFavourites": {
+    "optional": ["adId", "lister_id", "photoscount", "listing_position", "funnel_section", "funnel_subsection"],
+    "mandatory": []
+  },
+  "makeAnOfferButtonConfirmClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "makeAnOfferChatInitiatedLoggedIn": {
+    "optional": ["lister_id", "adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "makeAnOfferChatInitiatedLoggedInLowBid": {
+    "optional": [],
+    "mandatory": []
+  },
+  "makeAnOfferChatLowBid": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "makeAnOfferChatRetry": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "makeAnOfferDpvButtonClicked": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "mapResultsView": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "makeAnOfferScreen": {
+    "optional": [],
+    "mandatory": []
+  },
+  "mapViewToggled": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "messageButtonClicked": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId"],
+    "mandatory": []
+  },
+  "moreDetails": {
+    "optional": [],
+    "mandatory": []
+  },
+  "myAds": {
+    "optional": [],
+    "mandatory": []
+  },
+  "myAccount": {
+    "optional": ["page_name"],
+    "mandatory": []
+  },
+  "myChats": {
+    "optional": ["page_name"],
+    "mandatory": []
+  },
+  "myNotifications": {
+    "optional": ["page_name"],
+    "mandatory": []
+  },
+  "nameEnteredRegistration": {
+    "optional": [],
+    "mandatory": []
+  },
+  "paaCongrats": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "paaPressed": {
+    "optional": [],
+    "mandatory": []
+  },
+  "passwordEntered": {
+    "optional": [],
+    "mandatory": []
+  },
+  "passwordEnteredRegistration": {
+    "optional": [],
+    "mandatory": []
+  },
+  "placeAnAd": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profileChangePasswordButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profileEmailEditButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePhoneEditButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureChooseNewPictureFromLibraryButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureEditButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureEditCancelButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureTakeNewPictureFromCameraButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureTakeNewPictureFromCameraUnavailableFailure": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureUploadNewPictureFailure": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureUploadNewPictureSuccess": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePictureViewButtonClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePrivacyCheckBoxClicked": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePrivacySwitchToPrivate": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profilePrivacySwitchToPublic": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profileUpdated": {
+    "optional": [],
+    "mandatory": []
+  },
+  "profileViewed": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ratingView": {
+    "optional": [],
+    "mandatory": []
+  },
+  "readMore": {
+    "optional": [],
+    "mandatory": []
+  },
+  "refreshAdsClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "refreshAdsOpenMode": {
+    "optional": [],
+    "mandatory": []
+  },
+  "registerationSubmission": {
+    "optional": [],
+    "mandatory": []
+  },
+  "registerationSuccess": {
+    "optional": [],
+    "mandatory": []
+  },
+  "registration": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reload": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdCopyrightInfringement": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdFraud": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdIncorrectPrice": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdIncorrectPricing": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdMenuButtonClicked": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "reportAdMiscategorized": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdPropertyNotAvailable": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdReason": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "reportAdRepetitiveListing": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdSpam": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdSpamCommercial": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdSpamOffensive": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdSpamIrrelevant": {
+    "optional": [],
+    "mandatory": []
+  },
+  "reportAdSpamOther": {
+    "optional": [],
+    "mandatory": []
+  },
+  "resetPassword": {
+    "optional": ["funnel_subsection"],
+    "mandatory": []
+  },
+  "resetPasswordSubmission": {
+    "optional": [],
+    "mandatory": []
+  },
+  "resultsFilterActionNoResult": {
+    "optional": [],
+    "mandatory": []
+  },
+  "resultsSortAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "resultsSortActionNoResult": {
+    "optional": [],
+    "mandatory": []
+  },
+  "resultsViewAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "resultsViewTypeActionNoResult": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearch": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchActionNoResult": {
+    "optional": [],
+    "mandatory": []
+  },
+  "savedSearches": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchAllowEmail": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchAllowPush": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchButton": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "saveSearchConfirmed": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "saveSearchDeleteAll": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchDisableEmail": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchDisablePush": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchGotIt": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchImOK": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchUpdateAlerts": {
+    "optional": [],
+    "mandatory": []
+  },
+  "saveSearchKnowledgeScreenGotIt": {
+    "optional": [],
+    "mandatory": []
+  },
+  "scheduleViewing": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "scheduleAfternoon": {
+    "optional": [],
+    "mandatory": []
+  },
+  "searchCategory": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "searchFilters": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "searchLPV": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "searchString", "resultSetType", "ads", "adsOnPage", "pageNumber"],
+    "mandatory": []
+  },
+  "SeeSellerProfile": {
+    "optional": [],
+    "mandatory": []
+  },
+  "selectAll": {
+    "optional": [],
+    "mandatory": []
+  },
+  "sendEmailButton": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "sendSuccess": {
+    "optional": [],
+    "mandatory": []
+  },
+  "shareAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "shareAdButton": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showLessAmenities": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showLessDesc": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showLessDetails": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showLoginAlert": {
+    "optional": [],
+    "mandatory": []
+  },
+  "showMap": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showMoreAmenities": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showMoreDesc": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "showMoreDescCallClick": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId"],
+    "mandatory": []
+  },
+  "showMoreDetails": {
+    "optional": ["adId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId", "categoryId"],
+    "mandatory": []
+  },
+  "showPhoneDescription": {
+    "optional": [],
+    "mandatory": []
+  },
+  "similarAdsClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "similarAdsVisibleScrollVertically": {
+    "optional": [],
+    "mandatory": []
+  },
+  "similarListingItem": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "smsSent": {
+    "optional": ["lister_id", "matcher_id", "adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "sortButton": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "sortDateNewestOldest": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "sortDateOldestNewest": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "sortPriceHighestLowest": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "sortPriceLowestHighest": {
+    "optional": ["categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "streetViewToggled": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "swipeToViewMoreImages": {
+    "optional": ["adId", "categoryId", "categoryLevelOneId", "categoryLevelTwoId", "categoryLevelThreeId", "categoryLevelFourId"],
+    "mandatory": []
+  },
+  "switchToMapView": {
+    "optional": [],
+    "mandatory": []
+  },
+  "switchToSatelliteView": {
+    "optional": [],
+    "mandatory": []
+  },
+  
+  "terms&Conditions": {
+    "optional": [],
+    "mandatory": []
+  },
+  "uaReg": {
+    "optional": [],
+    "mandatory": []
+  },
+  "unselectAll": {
+    "optional": [],
+    "mandatory": []
+  },
+  "updatePromptHomeAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "updatePromptMenuAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "userMenu": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaDPVBanner": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaDetailsPage": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaFromField": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaToField": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaWhenField": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaHousetypeField": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaBedroomField": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaNextButton": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaContactPage": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaScheduleField": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaGetQuotes": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaConfirmPhone": {
+    "optional": [],
+    "mandatory": []
+  },
+  "ustaSuccessPage": {
+    "optional": [],
+    "mandatory": []
+  },
+  "verificationEmailSent": {
+    "optional": ["funnel_subsection"],
+    "mandatory": []
+  },
+  "yourAdsDeleteAdCancelationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsDeleteAdConfirmationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsDeleteAdSelectionClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsDeleteAllConfirmationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsDropdownMenuClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsFeatureAdCancelationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsFeatureAdConfirmationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsFeatureAdSelectionClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsFeatureAllConfirmationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsRefreshAdCancelationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsRefreshAdConfirmationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsRefreshAdSelectionClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsRefreshAllConfirmationClick": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsUpgradeAdAction": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsUpgradeAdPage": {
+    "optional": [],
+    "mandatory": []
+  },
+  "yourAdsUpgradeAdSelectionClick": {
+    "optional": [],
+    "mandatory": []
+  }
+}

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='DBZTagManagerTests.xctest' tests='17' failures='0'>
+  <testsuite name='DBZTagManagerTests.DBZTagManagerTests' tests='2' failures='0'>
+    <testcase classname='DBZTagManagerTests.DBZTagManagerTests' name='testEventRegistration' time='0.003'/>
+    <testcase classname='DBZTagManagerTests.DBZTagManagerTests' name='testTagManagerExistence' time='0.002'/>
+  </testsuite>
+  <testsuite name='DBZTagManagerTests.EventTests' tests='1' failures='0'>
+    <testcase classname='DBZTagManagerTests.EventTests' name='testValues' time='0.002'/>
+  </testsuite>
+  <testsuite name='DBZTagManagerTests.NinjaExtensionTests' tests='6' failures='0'>
+    <testcase classname='DBZTagManagerTests.NinjaExtensionTests' name='testMappingCustomAttribute' time='0.003'/>
+    <testcase classname='DBZTagManagerTests.NinjaExtensionTests' name='testNinjaEventsMap' time='0.023'/>
+    <testcase classname='DBZTagManagerTests.NinjaExtensionTests' name='testNinjaSetup' time='0.001'/>
+    <testcase classname='DBZTagManagerTests.NinjaExtensionTests' name='testPublishEvent' time='0.002'/>
+    <testcase classname='DBZTagManagerTests.NinjaExtensionTests' name='testPublishExistingAttributes' time='0.014'/>
+    <testcase classname='DBZTagManagerTests.NinjaExtensionTests' name='testPublishPageCase' time='0.032'/>
+  </testsuite>
+  <testsuite name='DBZTagManagerTests.TagManagerTests' tests='2' failures='0'>
+    <testcase classname='DBZTagManagerTests.TagManagerTests' name='testFailExtensionRegistration' time='0.004'/>
+    <testcase classname='DBZTagManagerTests.TagManagerTests' name='testRegisterExtension' time='0.001'/>
+  </testsuite>
+  <testsuite name='DBZTagManagerTests.TaggingValidationTests' tests='6' failures='0'>
+    <testcase classname='DBZTagManagerTests.TaggingValidationTests' name='testTagEventNameExistence' time='0.001'/>
+    <testcase classname='DBZTagManagerTests.TaggingValidationTests' name='testTagEventTypeExistence' time='0.001'/>
+    <testcase classname='DBZTagManagerTests.TaggingValidationTests' name='testTagEventWitAllMandatoryAttributes' time='0.004'/>
+    <testcase classname='DBZTagManagerTests.TaggingValidationTests' name='testTagInvalidEventType' time='0.001'/>
+    <testcase classname='DBZTagManagerTests.TaggingValidationTests' name='testTagValidEventType' time='0.001'/>
+    <testcase classname='DBZTagManagerTests.TaggingValidationTests' name='testTagValidPageLoadEventType' time='0.001'/>
+  </testsuite>
+</testsuites>
