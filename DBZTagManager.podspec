@@ -21,22 +21,22 @@ Pod::Spec.new do |s|
 DBZTagManager framework is the core component of dubizzle iOS app for tagging across all verticals and the horizontal.
                        DESC
 
-  s.homepage         = 'https://github.com/dubizzle/ios-tagging-framework'
+  s.homepage         = 'https://github.com/hishamdubizzle/tagging_demo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ahmedomer' => 'ahmed.omer@hotmail.com' }
-  s.source           = { :git => 'https://github.com/dubizzle/ios-tagging-framework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hishamdubizzle/tagging_demo.git' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
   
   s.static_framework = true
   
-  s.libraries = 'sqlite3.tbd', 'ATiOSLib'
+  s.libraries = 'sqlite3.tbd'
 
   s.source_files = 'DBZTagManager', 'DBZTagManager/**/*.{h,m,swift}'
   
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"DBZTagManager/ATIAnalytics"' }
+
   
   # s.resource_bundles = {
   #   'DBZTagManager' => ['DBZTagManager/Assets/*.png']
@@ -48,5 +48,5 @@ DBZTagManager framework is the core component of dubizzle iOS app for tagging ac
   s.dependency 'FBSDKCoreKit', '4.23.0'
   s.dependency 'NCNinja', '0.7.10'
   s.dependency 'SnowplowTracker', '0.6.2'
-  s.dependency 'Tune', '4.12.4'
+  
 end
