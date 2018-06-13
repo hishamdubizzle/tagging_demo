@@ -12,13 +12,13 @@ import Foundation
 
 extension NSString {
 
-  func listingID() -> String? {
-
-    guard let components = NSStringHelper.components(fromString: self) else {
-      return nil
-    }
-    return components[4]
-  }
+//  func listingID() -> String? {
+//
+//    guard let components = NSStringHelper.components(fromString: self) else {
+//      return nil
+//    }
+//    return components[4]
+//  }
 }
 
 @objc public class NSStringHelper: NSObject {
