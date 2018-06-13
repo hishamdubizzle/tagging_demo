@@ -29,9 +29,7 @@ DBZTagManager framework is the core component of dubizzle iOS app for tagging ac
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  
-  
-  s.libraries = 'sqlite3.tbd'
+ 
 
   s.source_files = 'DBZTagManager', 'DBZTagManager/**/*.{h,m,swift}','DBZAnalytics', 'DBZAnalytics/**/*.{h,m,swift}'
   
