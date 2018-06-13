@@ -30,11 +30,10 @@ DBZTagManager framework is the core component of dubizzle iOS app for tagging ac
 
   s.ios.deployment_target = '9.0'
   
-  s.static_framework = true
   
   s.libraries = 'sqlite3.tbd'
 
-  s.source_files = 'DBZTagManager', 'DBZTagManager/**/*.{h,m,swift}'
+  s.source_files = 'DBZTagManager', 'DBZTagManager/**/*.{h,m,swift}','DBZAnalytics', 'DBZAnalytics/**/*.{h,m,swift}'
   
 
   
@@ -47,6 +46,7 @@ DBZTagManager framework is the core component of dubizzle iOS app for tagging ac
   s.dependency 'Apptimize', '2.20.20'
   s.dependency 'FBSDKCoreKit', '4.23.0'
   s.dependency 'NCNinja'
+  s.dependency 'NCNinja/UAE'
   s.dependency 'SnowplowTracker', '0.6.2'
   
 end
