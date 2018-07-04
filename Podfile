@@ -1,5 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://github.com/naspersclassifieds-shared/clm-specs.git'
+source 'git@github.com:naspersclassifieds-shared/clm-specs.git'
 source 'ssh://git@git.naspersclassifieds.com/olx/dubizzle/developers/mobile/ios-specs.git'
 
 # Uncomment the next line to define a global platform for your project
