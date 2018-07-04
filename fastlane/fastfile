@@ -1,5 +1,60 @@
-import_from_git(
-  url: "git@git.naspersclassifieds.com:olx/dubizzle/developers/mobile/mobile_cicd.git", # The URL of the repository to import the Fastfile from.
-  branch: "HEAD", # The branch to checkout on the repository. Defaults to `HEAD`.
-  path: "ios/Fastlane/tagging/fastfile" # The path of the Fastfile in the repository. Defaults to `fastlane/Fastfile`.
-)
+fastlane_version "2.69.3"
+
+default_platform :ios
+
+ENV["MATCH_PASSWORD"] = "test123"
+ENV["FASTLANE_XCODEBUILD_SETTINGS_RETRIES"] = "6"
+ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "5"
+#ENV["FASTLANE_EXPLICIT_OPEN_SIMULATOR"] = "2"
+ENV["FASTLANE_XCODE_LIST_TIMEOUT"] = "120"
+
+platform :ios do
+  before_all do
+    # ENV["SLACK_URL"] = "https://hooks.slack.com/services/..."
+    # cocoapods
+  end
+  
+  def install_pods
+    cocoapods(
+          clean: true,
+          podfile: "Podfile",
+          try_repo_update_on_error: true
+    )
+  end
+  
+  desc "Lint"
+  lane :lint do
+    install_pods()
+    swiftlint(
+    reporter: "html",
+    output_file: "fastlane/swiftlint.html",
+    ignore_exit_status: false
+    )
+  end
+  
+  desc "Build Tagging Framework"
+  lane :dbz_build_tagging_framework do
+      install_pods()
+        xcodebuild(
+          archive: true,
+          archive_path: "./builds_archives/tagging",
+          scheme: "DBZTagManager-Universal",
+          workspace: "DBZTagManager.xcworkspace"
+        )
+
+   end
+  
+  desc "Build and Unit Test App"
+  lane :dbz_build_and_unittest_app do
+      install_pods()
+        scan(
+          workspace: "DBZTagManager.xcworkspace",
+          scheme: "DBZTagManager",
+          #derived_data_path: "builds_archives/tagging",
+          #devices: ["iPhone 8"],
+          clean: true,
+          configuration: "Debug",
+          disable_concurrent_testing: true
+        )
+  end
+end
